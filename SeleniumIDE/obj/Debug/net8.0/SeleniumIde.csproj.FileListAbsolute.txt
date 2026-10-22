@@ -176,3 +176,4 @@ C:\Users\User\Desktop\SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\refint\SeleniumId
 C:\Users\User\Desktop\SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.pdb
 C:\Users\User\Desktop\SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.genruntimeconfig.cache
 C:\Users\User\Desktop\SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\ref\SeleniumIde.dll
+C:\Users\User\Desktop\SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.sourcelink.json
