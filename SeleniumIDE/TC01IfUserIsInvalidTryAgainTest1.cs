@@ -16,6 +16,7 @@ public class TC01IfUserIsInvalidTryAgainTest
 {
     private IWebDriver driver;
     public IDictionary<string, object> vars { get; private set; }
+    private ChromeOptions options;
     private IJavaScriptExecutor js;
 
     [SetUp]
