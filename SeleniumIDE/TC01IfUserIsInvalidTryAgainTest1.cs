@@ -22,14 +22,9 @@ public class TC01IfUserIsInvalidTryAgainTest
     [SetUp]
     public void SetUp()
     {
-        var options = new ChromeOptions();
-        options.AddArgument("--headless=new");
-        options.AddArgument("--no-sandbox");
-        options.AddArgument("--disable-dev-shm-usage");
-        options.AddArgument("--window-size=1920,1080");
-
-        driver = new ChromeDriver(options);      
-    }
+        options = new ChromeOptions();
+        options.AddArguments("--headless");
+        driver = new ChromeDriver(options);
         js = (IJavaScriptExecutor)driver;
         vars = new Dictionary<string, object>();
     }
@@ -40,6 +35,7 @@ public class TC01IfUserIsInvalidTryAgainTest
         driver.Quit();
         driver.Dispose();
     }
+
 
     [Test]
     public void tC01IfUserIsInvalidTryAgain()
