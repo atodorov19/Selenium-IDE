@@ -1,6 +1,5 @@
 pipeline{
     agent any
-    ## A simple pipeline to build and test a .NET project
     stages{
         stage('Restore the project'){
             steps{
